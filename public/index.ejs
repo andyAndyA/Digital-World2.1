@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Digital World 2.1</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css" type="text/css">
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="/style.css" />
+	</head>
+	<body class="ui container">
+		<%- partial("/includes/_navigation.ejs") %>
+		<figure class="ui blue segment">
+			<img class="ui rounded image" src="/assets/images/background.png">
+		</figure>
+		<section class="ui blue segment">
+			<header class="ui clearing header">
+				<h2>About Digital World 2.1</h2>
+			</header>
+			<article>
+				Welcome to the main page of this website! Here, I wish to provide you with a study of the popular anime and game franchise; Digimon, short for Digital Monsters! This page will provide a general summary of what Digimons are from the Digital World, and throughout the other pages of this website (navigated via the bar above.) I will go into detail of each of the animated seasons of Digimon by providing information on the general premise of the show and its cast!
+			</article>
+		</section>
+		<main class="ui blue segment">
+		<header class="ui clearing header">
+			<h2>About Digital Monsters</h2>
+		</header>
+		<article>
+			Digimon hatch from eggs called Digi-Eggs. They age via a process called "Digivolution" which changes their appearance and increases their powers. The effect of Digivolution, however, is not permanent, and Digimon who have digivolved will most of the time revert back to their previous form after a battle or if they are too weak to continue. Some Digimon are feral in nature, but most possess large amounts of intelligence and human speech. They are able to digivolve by the use of Digivices that their human partners have. In some cases, as in the first season of the Digimon anime, the Chosen Ones had to find some special items such as Crests and Tags so the Digimon could digivolve in another stage called Ultimate then Mega.
+			<br><br>
+			The first Digimon anime introduces the Digimon life cycle: They age in a similar fashion to real organisms, but do not die under normal circumstances because they are made of reconfigurable data. Old Digimon and Digimon who receive fatal wounds dissolve into infinitesimal bits of data. The data then recomposes itself as a Digi-Egg, which will hatch when rubbed gently, and the Digimon goes through its life cycle again. Digimon who are reincarnated in this way will sometimes retain some or all their memories of their previous life. However, if a 	Digimon's data is completely destroyed, they will die.
+		</article>
+		</main>
+		<%- partial("/includes/_footer.ejs") %>
+		<%- partial("/includes/_cookies.ejs") %>
+		<script>
+		$('.annoy')
+		.nag('show');
+		$('.annoy')
+		.nag('clear');
+		</script>
+	</body>
+</html>

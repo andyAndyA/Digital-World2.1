@@ -1,6 +1,8 @@
-# Digital World 2.1
-This is a repo to contain my Web Development Semester 2 project.
+Web Development (semester 1)'s second project.
 
-## Notes
-- Made completely with HTML and CSS, using the Semantic UI framework.
-- No JavaScript involved.
+# Link
+https://digital-world-2-1.surge.sh/
+
+# Notes
+- Styled using the Semantic UI framework.
+- Uses EJS templating for better site creation management.
